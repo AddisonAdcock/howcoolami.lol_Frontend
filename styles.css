@@ -88,6 +88,14 @@ body {
     display: none;
 }
 
+.loading-animation {
+    font-size: 24px;
+    color: #0071e3;
+    padding: 20px;
+    text-align: center;
+}
+
+
 @media screen and (max-width: 768px) {
     .container {
         padding: 20px;

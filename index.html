@@ -17,6 +17,10 @@
         <textarea id="bioInput" placeholder="Tell me all your secrets..." class="input-area"></textarea>
         <button class="submit-btn" onclick="checkCoolness()">Check Coolness</button>
 
+        <button id="tryAgainBtn" class="submit-btn" style="display:none;" onclick="resetForm()">Try Again</button>
+        <div id="loading" class="loading-animation" style="display:none;">Loading...</div>
+
+
         <div id="result" class="result-card"></div>
     </div>
     <script src="script.js"></script>
