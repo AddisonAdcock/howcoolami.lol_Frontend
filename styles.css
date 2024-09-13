@@ -47,10 +47,8 @@ body {
     resize: none; 
     margin: 0 auto; 
     box-sizing: border-box; 
-}
-
-.input-area:focus {
     box-shadow: 0 4px 20px rgba(0, 113, 227, 0.3); 
+
 }
 
 .submit-btn {
